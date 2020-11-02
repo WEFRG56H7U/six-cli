@@ -98,7 +98,7 @@ mrs4s@six-pan:/$ pw file
 > 相对路径或绝对路径都可，包含特殊符号需要用半角双引号引起来
 
 ````shell
-mrs4s@six-pan:/$ Upload file  
+mrs4s@six-pan:/$ up file  
 [+] 正在准备上传 1 个文件.
 
 [+] 正在读取文件 file
@@ -117,3 +117,25 @@ mrs4s@six-pan:/$ ^C
 D:\workdir>
 ````
 
+### 更多信息请使用`help`
+
+````shell
+mrs4s@six-pan:/$ help
+Command   Alias    Explain
+help      h        show help
+CheckSum  cksum    效验文件hash
+Config    cof      修改配置文件
+Copy      cp
+Delete    rm del   删除文件或目录
+Download  down     下载 文件夹/文件
+Find               搜索文件
+JoinPath  cd join  切换工作目录
+List      ls       显示 当前目录/目标目录 下的所有文件
+Login              登录6Pan账号
+Mkdir              创建目录
+Offline            离线下载操作
+Preview   pw
+Pwd                显示当前工作目录
+Switch
+Upload    up       上传文件 / 文件夹
+````
