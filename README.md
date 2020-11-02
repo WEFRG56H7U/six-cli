@@ -93,6 +93,19 @@ mrs4s@six-pan:/$ cksum file1 file2
 mrs4s@six-pan:/$ pw file
 ````
 
+### 上传文件
+> 请先用`cd`命令切换至要上传的文件夹内再上传 \n 相对路径或绝对路径都可，包含特殊符号需要用半角双引号引起来
+
+````shell
+mrs4s@six-pan:/$ Upload file  
+[+] 正在准备上传 1 个文件.
+
+[+] 正在读取文件 file
+ ↑ 1 / 1 (分块)
+
+[+] 文件 file 处理完成.
+````
+
 ### 退出six-cli
 > 连续按两下`Ctrl + C`即可退出
 
@@ -102,3 +115,5 @@ mrs4s@six-pan:/$ ^C
 mrs4s@six-pan:/$ ^C
 D:\workdir>
 ````
+
+
