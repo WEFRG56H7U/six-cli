@@ -92,3 +92,13 @@ mrs4s@six-pan:/$ cksum file1 file2
 ````shell
 mrs4s@six-pan:/$ pw file
 ````
+
+### 退出six-cli
+> 连续按两下`Ctrl + C`即可退出
+
+````shell
+mrs4s@six-pan:/$ ^C
+再次键入 Ctrl+C 以确认退出
+mrs4s@six-pan:/$ ^C
+D:\workdir>
+````
